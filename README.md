@@ -99,7 +99,7 @@ The Random algorithm assigns requests randomly to servers. The seed function can
 
 ```go
 func main() {
-	// ...
+	// ....
 
 	seed := func() {
 		rand.Seed(time.Now().UTC().UnixNano())
